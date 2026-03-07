@@ -1,5 +1,6 @@
 import numpy as np
 import pytest
+
 from astropy.stats._fast_sigma_clip import _sigma_clip_fast
 
 
