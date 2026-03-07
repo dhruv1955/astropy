@@ -1,5 +1,6 @@
 import numpy as np
 import pytest
+pytest.importorskip("scipy")
 from scipy.stats import ks_2samp as scipy_ks_2samp
 
 from astropy.stats._stats import ks_2samp
