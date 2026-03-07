@@ -1,0 +1,1 @@
+Added direct tests for the ``ks_2samp`` Cython function in ``astropy.stats._stats``, independent of the public Python API.
